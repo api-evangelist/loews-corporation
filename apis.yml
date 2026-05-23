@@ -1,0 +1,116 @@
+name: Loews Corporation
+description: |-
+  Loews Corporation (NYSE: L) is a diversified holding company headquartered at
+  9 West 57th Street, New York. Controlled by the Tisch family, the corporation
+  pursues long-term shareholder value through four operating subsidiaries spanning
+  insurance, energy infrastructure, hospitality, and rigid plastic packaging.
+  The parent entity itself publishes no developer APIs, SDKs, or technical
+  artifacts — its public surface is investor-relations, SEC filings, and press
+  communications. This apis.yml therefore documents the parent's portfolio
+  structure and points to each operating subsidiary for any API-bearing surface.
+
+image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/logos/loews-corporation-logo.png
+url: https://github.com/api-evangelist/loews-corporation/blob/main/apis.yml
+created: 2026-05-23
+modified: 2026-05-23
+specificationVersion: "0.20"
+
+tags:
+  - Holding Company
+  - Conglomerate
+  - Diversified
+  - Insurance
+  - Energy
+  - Hospitality
+  - Packaging
+  - Public Company
+  - NYSE
+  - Tisch Family
+
+apis: []
+
+common:
+  - type: Website
+    url: https://www.loews.com/
+  - type: InvestorRelations
+    url: https://www.loews.com/investors
+  - type: Leadership
+    url: https://www.loews.com/leadership
+  - type: BoardOfDirectors
+    url: https://www.loews.com/board-of-directors
+  - type: News
+    url: https://www.loews.com/news
+  - type: Careers
+    url: https://www.loews.com/careers
+  - type: SECFilings
+    url: https://www.loews.com/sec-filings
+  - type: ContactEmail
+    url: mailto:ir@loews.com
+  - type: StockSymbol
+    url: https://www.nyse.com/quote/XNYS:L
+
+portfolio:
+  - name: CNA Financial Corporation
+    ticker: NYSE:CNA
+    ownership: ~92%
+    sector: Commercial Property & Casualty Insurance
+    url: https://www.cna.com/
+    description: |-
+      One of the largest U.S. commercial P&C insurers. Lines include Casualty,
+      Commercial Auto, Cyber, Equipment Breakdown, General Liability,
+      Management & Professional Liability, Marine, Property, Umbrella & Excess
+      Casualty, Warranty & Alternative Risks, and Workers' Compensation.
+      Agent-facing platforms: CNA Central, Agent Center, eSight, Cardinal E&S,
+      Beyond HR. No public developer API program documented.
+    surfaces:
+      - AgentPortal: https://www.cna.com/web/guest/cna/agentcenter
+      - Brand-ENS: https://www.cardinalens.com/
+      - Brand-Surety: https://www.cnasurety.com/
+
+  - name: Boardwalk Pipelines
+    ticker: Wholly owned (private since 2018)
+    ownership: 100%
+    sector: Midstream Energy / Natural Gas Pipelines
+    url: https://bwpipelines.com/
+    description: |-
+      Operates ~14,000 miles of interstate natural gas and NGL pipelines plus
+      underground storage across the Gulf Coast, Midwest, and Northeast.
+      Customer-facing systems are bulletin-board / EBB (Electronic Bulletin
+      Board) per FERC convention; no REST API program is published.
+    surfaces:
+      - InformationalPostings: https://infopost.bwpipelines.com/
+
+  - name: Loews Hotels & Co
+    ticker: Wholly owned
+    ownership: 100%
+    sector: Hospitality
+    url: https://www.loewshotels.com/
+    description: |-
+      Owns and/or operates ~27 properties across the U.S., including 11 hotels
+      at Universal Orlando Resort. Reservations run through
+      reservations.loewshotels.com. No public booking API documented; loyalty
+      and booking integrations are partner-only.
+    surfaces:
+      - Reservations: https://reservations.loewshotels.com/
+      - Loyalty: https://www.loewshotels.com/youfirst
+
+  - name: Altium Packaging
+    ticker: Wholly owned
+    ownership: ~99%
+    sector: Rigid Plastic Packaging Manufacturing
+    url: https://www.altiumpkg.com/
+    description: |-
+      Operates 65+ plants across the U.S. and Canada with ~4,000 employees,
+      producing bottles, caps, closures, and custom rigid plastic containers
+      for dairy, beverage, food, healthcare, and automotive markets. Public
+      surface is a product catalog (catalog.altiumpkg.com) and quote request
+      form; no REST/EDI API documented publicly.
+    surfaces:
+      - ProductCatalog: https://catalog.altiumpkg.com/
+      - QuoteRequest: https://www.altiumpkg.com/contact-us/
+      - DesignDivision: https://www.altiumpkg.com/studio-pkg/
+
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+    url: https://apievangelist.com
