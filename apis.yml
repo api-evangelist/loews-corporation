@@ -31,6 +31,8 @@ tags:
 apis: []
 
 common:
+  - type: DomainSecurity
+    url: security/loews-corporation-domain-security.yml
   - type: Website
     url: https://www.loews.com/
   - type: InvestorRelations
