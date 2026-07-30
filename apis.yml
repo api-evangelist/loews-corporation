@@ -9,6 +9,17 @@ description: |-
   communications. This apis.yml therefore documents the parent's portfolio
   structure and points to each operating subsidiary for any API-bearing surface.
 
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/logos/loews-corporation-logo.png
 url: https://github.com/api-evangelist/loews-corporation/blob/main/apis.yml
 created: 2026-05-23
