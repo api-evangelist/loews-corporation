@@ -24,7 +24,7 @@ image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/logos/l
 url: https://github.com/api-evangelist/loews-corporation/blob/main/apis.yml
 created: 2026-05-23
 modified: 2026-05-23
-specificationVersion: "0.20"
+specificationVersion: '0.23'
 
 tags:
   - Holding Company
