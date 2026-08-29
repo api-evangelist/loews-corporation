@@ -9,6 +9,17 @@ description: |-
   communications. This apis.yml therefore documents the parent's portfolio
   structure and points to each operating subsidiary for any API-bearing surface.
 
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
